@@ -1,0 +1,76 @@
+.to-do-list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+
+}
+button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+}
+.add-btn{
+    background-color: hsl(125, 84%, 39%);
+    padding: 8px 12px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+.add-btn:hover{
+    background-color: hsl(125, 84%, 29%);
+}
+
+.del-btn{
+    background-color: hsl(0, 83%, 52%);
+}
+.del-btn:hover{
+    background-color:  hsl(0, 83%, 42%);
+}
+.up-btn{
+    background-color: hsl(296, 85%, 40%);
+}
+.up-btn:hover{
+    background-color: hsl(296, 85%, 30%);
+}
+input[type="text"]{
+    font-size:1.5rem;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+ol{
+    padding: 0px;
+}
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: hsl(0,0%,97%);
+    margin-bottom: 10px;
+    border: 1.5px solid hsla(0,0%,85%,0.75);
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex: 1;
+}
+.del-btn,.up-btn{
+    padding: 8px 12px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+h1{
+    font-size: 3rem;
+}
+
+
+.completed {
+    text-decoration: line-through;
+    flex: 1;
+   
+  }
